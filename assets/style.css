@@ -135,6 +135,7 @@ main h1 {
   font-size: 4rem;
   white-space: nowrap;
   margin: 0 auto;
+  max-width: 1300px;
 }
 @keyframes blink {
   0% {
@@ -357,6 +358,7 @@ a {
 .portfolio .port-grup iframe {
   margin-bottom: 50px;
   margin: 0 auto;
+  padding: 10px;
 }
 .portfolio .part2 {
   padding-bottom: 100px;
@@ -511,9 +513,17 @@ a {
   background: transparent;
 }
 
+.client-section .creatorslke {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 .client-section a {
-  font-size: 3vh;
+  font-size: 2.5vh;
   font-weight: 500;
+}
+.client-section a img {
+  max-width: 17vh;
 }
 .client-section {
   padding-bottom: 50px;
@@ -521,7 +531,6 @@ a {
 .client-section h2 {
   color: #61892f;
   text-align: center;
-  padding-bottom: 20px;
   font-size: 3vh;
 }
 
@@ -592,7 +601,7 @@ footer .footer-social a img {
     font-size: 1.1rem;
   }
   main h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 800px) {

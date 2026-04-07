@@ -148,6 +148,7 @@ a {
     iframe {
       margin-bottom: 50px;
       margin: 0 auto;
+      padding: 10px;
     }
   }
   .part2 {
@@ -320,15 +321,22 @@ a {
   background: transparent;
 }
 .client-section {
+  .creatorslke {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
   a {
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-weight: 500;
+    img {
+      max-width: 17vh;
+    }
   }
   padding-bottom: 50px;
   h2 {
     color: #61892f;
     text-align: center;
-    padding-bottom: 20px;
     font-size: 3vh;
   }
 }
