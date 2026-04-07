@@ -605,6 +605,9 @@ footer .footer-social a img {
   }
 }
 @media (max-width: 800px) {
+  .client-section .creatorslke {
+    display: inline;
+  }
   .portfolio .port-grup {
     display: contents;
   }
@@ -727,5 +730,12 @@ footer .footer-social a img {
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .portfolio .port-grup iframe {
+    height: 50vh;
+    margin-left: 0;
+    margin-right: 0;
   }
 }/*# sourceMappingURL=style.css.map */

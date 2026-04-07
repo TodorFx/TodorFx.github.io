@@ -57,6 +57,11 @@
 }
 
 @media (max-width: 800px) {
+  .client-section {
+    .creatorslke {
+      display: inline;
+    }
+  }
   .portfolio {
     .port-grup {
       display: contents;
@@ -217,5 +222,12 @@
         margin-right: 5px;
       }
     }
+  }
+}
+@media (max-width: 800px) {
+  .portfolio .port-grup iframe {
+    height: 50vh;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
