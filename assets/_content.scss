@@ -340,3 +340,15 @@ a {
     font-size: 3vh;
   }
 }
+.socila-new {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+
+  a {
+    img {
+      max-width: 5.5vh;
+    }
+  }
+}

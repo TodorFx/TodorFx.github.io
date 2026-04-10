@@ -534,6 +534,16 @@ a {
   font-size: 3vh;
 }
 
+.socila-new {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.socila-new a img {
+  max-width: 5.5vh;
+}
+
 footer {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
   padding-bottom: 20px;
@@ -556,7 +566,7 @@ footer .footer-social {
   justify-content: center;
 }
 footer .footer-social a img {
-  width: 35px;
+  width: 5.5vh;
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
