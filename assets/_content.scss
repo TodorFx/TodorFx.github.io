@@ -110,7 +110,6 @@ a {
   max-width: 60%;
   margin: 0 auto;
   padding: 20px;
-  margin-bottom: 100px;
   border-radius: 5px;
   transition: background-color 0.5s;
 
@@ -350,5 +349,14 @@ a {
     img {
       max-width: 5.5vh;
     }
+  }
+}
+.skill-icons {
+  margin: 0 auto;
+  text-align: center;
+  img {
+    max-width: 6vh;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
