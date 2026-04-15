@@ -788,5 +788,6 @@ footer .footer-social a img {
     height: 50vh;
     margin-left: 0;
     margin-right: 0;
+    max-width: 90% !important;
   }
 }/*# sourceMappingURL=style.css.map */
