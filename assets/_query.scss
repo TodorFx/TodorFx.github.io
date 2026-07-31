@@ -1,4 +1,17 @@
 @media (max-width: 1550px) {
+  .portfolio {
+    .port-grup {
+      iframe {
+        max-width: 80% !important;
+      }
+    }
+  }
+  .long-form {
+    iframe {
+      max-width: 200% !important;
+    }
+  }
+
   .port-grup {
     iframe {
       max-width: 30% !important;
