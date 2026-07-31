@@ -399,3 +399,22 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+.long-form {
+  margin: 0 auto;
+  max-width: 70%;
+
+  iframe {
+    margin-bottom: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+}
