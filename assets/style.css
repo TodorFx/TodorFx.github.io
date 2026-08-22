@@ -106,7 +106,7 @@ main .button {
   background-color: rgba(96, 137, 47, 0.1529411765);
   color: white;
   padding: 2vh 4vh;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
   box-shadow: 5px 5px 33px #000000;
   text-decoration: none;
@@ -302,6 +302,9 @@ a {
   background-color: rgba(85, 85, 85, 0);
 }
 
+.fields {
+  padding-top: 10vh;
+}
 .fields h1 {
   text-align: center;
   padding-top: 100px;
@@ -545,8 +548,9 @@ a {
   gap: 50px;
 }
 .client-section a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
+  color: #929597;
 }
 .client-section a img {
   width: clamp(70px, 15vh, 130px);
@@ -635,6 +639,12 @@ a {
   border: none;
   box-shadow: none;
   background: transparent;
+}
+
+main .button2 {
+  font-size: 1.1rem;
+  margin-top: -5vh;
+  margin-bottom: 5vh;
 }
 
 footer {

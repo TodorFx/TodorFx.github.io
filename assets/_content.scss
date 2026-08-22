@@ -57,6 +57,7 @@ a {
 }
 
 .fields {
+  padding-top: 10vh;
   h1 {
     text-align: center;
     padding-top: 100px;
@@ -326,8 +327,9 @@ a {
     gap: 50px;
   }
   a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
+    color: #929597;
     img {
       width: clamp(70px, 15vh, 130px);
       height: clamp(70px, 15vh, 130px);
@@ -416,5 +418,12 @@ a {
     border: none;
     box-shadow: none;
     background: transparent;
+  }
+}
+main {
+  .button2 {
+    font-size: 1.1rem;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
   }
 }
