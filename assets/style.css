@@ -558,6 +558,7 @@ a {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35), 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .client-section {
   padding-bottom: 50px;
