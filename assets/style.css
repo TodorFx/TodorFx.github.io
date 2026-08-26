@@ -859,6 +859,9 @@ footer .footer-social a img {
   }
 }
 @media (max-width: 800px) {
+  .long-form {
+    display: block;
+  }
   .portfolio .port-grup iframe {
     height: 50vh;
     margin-left: 0;
