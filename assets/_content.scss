@@ -331,13 +331,14 @@ a {
     font-weight: 500;
     color: #929597;
     img {
-      width: clamp(70px, 15vh, 130px);
-      height: clamp(70px, 15vh, 130px);
+      width: clamp(60px, 13vh, 130px);
+      height: clamp(60px, 13vh, 130px);
       border-radius: 50%;
       object-fit: cover;
       box-shadow:
         0 10px 20px rgba(0, 0, 0, 0.35),
         0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-top: 10px;
     }
   }
   padding-bottom: 50px;

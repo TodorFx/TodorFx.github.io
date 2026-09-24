@@ -72,7 +72,9 @@
   }
   .client-section {
     .creatorslke {
-      display: inline;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
   .portfolio {
