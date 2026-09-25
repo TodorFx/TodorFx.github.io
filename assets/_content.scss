@@ -432,5 +432,10 @@ main {
     font-size: 1.1rem;
     margin-top: -5vh;
     margin-bottom: 5vh;
+    transition: transform 0.2s ease;
+  }
+
+  .button2:hover {
+    transform: scale(1.05);
   }
 }

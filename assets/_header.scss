@@ -115,13 +115,13 @@ main {
     position: relative;
     display: inline-block;
     overflow: hidden;
-    border-radius: 8px;
-    background-color: #60892f27;
+    border-radius: 15px;
+    background-color: #60892f0e;
     color: white;
     padding: 2vh 4vh;
     font-size: 1.1rem;
     font-weight: 600;
-    box-shadow: 5px 5px 33px #000000;
+    box-shadow: 5px 5px 33px #00000094;
     text-decoration: none;
     z-index: 0;
   }
@@ -140,10 +140,10 @@ main {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: #4a6f22a2;
+    background-color: #4a6f2244;
     transform: scaleX(0);
     transform-origin: left;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
     z-index: 1;
   }
 
